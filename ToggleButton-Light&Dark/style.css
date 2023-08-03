@@ -1,0 +1,50 @@
+label{
+    width: 100px;
+    height: 50px;
+    display: block;
+    background: white;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,0.9);
+    position: relative;
+}
+.content{
+   text-align: center;
+}
+label::after{
+    content: "";
+    height: 30px;
+    width: 30px;
+    background: black;
+    border-radius: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 1s;
+}
+input{
+    display: none;
+   
+}
+
+input:checked ~label{
+    background: black;
+    box-shadow: inset 0 0 40px rgba(255,255,255,0.9);
+}
+
+input:checked~label::after{
+    background-color: #fff;
+    left: 60px;
+}
+.bg{
+    background: white;
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -99;
+    transition: 1s;
+}
+input:checked~.bg{
+    background: black;
+    color: white;
+}
