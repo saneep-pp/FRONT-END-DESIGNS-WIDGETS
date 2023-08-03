@@ -1,0 +1,107 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+ 
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  width: 300px;
+
+  flex-direction: column;
+  gap: 35px;
+  background: #6e6e6ec3;
+  box-shadow: 16px 16px 32px #504a4a, -16px -16px -32px #fefefe;
+  border-radius: 8px;
+}
+.inputbox {
+  position: relative;
+  width: 250px;
+}
+.inputbox input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid  #e3e3e3;
+  border-bottom: 2px solid rgb(110, 110, 110);
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+.inputbox span {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: black;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+.inputbox input:valid,
+.inputbox input:focus {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.inputbox input:valid ~ span,
+.inputbox input:valid ~ span {
+  transform: translateX(120px) translateY(-75px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: black;
+  color: white;
+  letter-spacing: 0.2em;
+  border: 2px;
+}
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid rgb(110, 110, 110);
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 1em;
+ transition: .8s cubic-bezier(.775,.07,.575,.995);
+ transform-style: preserve-3d;
+ position:relative;
+
+}
+.enter:hover{
+  transition: 05s;
+  transform: scale(1.25);
+}
+.enter:focus {
+  background-color: rgb(0, 0, 0);
+  color: white;
+ transform: rotateX(180deg);
+ 
+}
+.enter:focus span{
+    display: inline-block;
+    transform: rotateX(180deg);
+}
