@@ -6,3 +6,7 @@ Animated Login Page
 
 Instagram Login Page
 ![instagramLoginPage](https://github.com/saneep-pp/FRONT-END-DESIGNS-WIDGETS/assets/61908137/7bdc6f95-ded8-4229-8468-336a3f54ef52)
+
+Facebook Login Page
+
+![FacebookLoginPage](https://github.com/saneep-pp/FRONT-END-DESIGNS-WIDGETS/assets/61908137/b4db670e-492c-4614-8d63-d3e94716b69c)
