@@ -10,3 +10,7 @@ Instagram Login Page
 Facebook Login Page
 
 ![FacebookLoginPage](https://github.com/saneep-pp/FRONT-END-DESIGNS-WIDGETS/assets/61908137/b4db670e-492c-4614-8d63-d3e94716b69c)
+
+
+Animated Login Page 2
+![Animated LoginPage 2](https://github.com/saneep-pp/FRONT-END-DESIGNS-WIDGETS/assets/61908137/ca98309a-e5c6-4eb9-847b-15642cb2e6b0)
