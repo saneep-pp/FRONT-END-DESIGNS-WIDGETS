@@ -18,3 +18,6 @@ Animated Login Page 2
 
 Animated Login Page 3
 ![Animated LoginPage 3](https://github.com/saneep-pp/FRONT-END-DESIGNS-WIDGETS/assets/61908137/81bd7cf5-f576-49c7-a069-ac55a854e35c)
+
+Animated Search Box
+![Animated Search Box](https://github.com/saneep-pp/FRONT-END-DESIGNS-WIDGETS/assets/61908137/a8529ccb-e6cc-411a-8563-27648b1dfbd7)
